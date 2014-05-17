@@ -85,6 +85,9 @@ header div.container nav.nav-main ul li.canal{
 
 /*========== BANNER ==========*/
 
+section.banner{
+	position: relative;
+}
 section.banner ul#fade{
 	width: 100%;
 }
@@ -130,11 +133,23 @@ section.banner ul#fade li a{
 
 }
 
+section.banner div.bg-transparent{
+	width: 100%;
+	height: 60px;
+	background: rgba(118,103,84,0.5);
+	position: absolute;
+	bottom: 3px;
+	z-index: 3;
+}
+
+div.quadros{
+	margin-top: 40px;
+}
+
 
 /*========== TOUR VIRTUAL ==========*/
 
 div.quadro-um{
-	border: 1px solid black;
 	width: 265px;
 }
 
@@ -183,12 +198,6 @@ section.tour-virtual small a span{
 
 /*========== CANAL FAVORITA ==========*/
 
-div.quadro-dois{
-	border: 1px solid black;
-	width: 265px;
-
-}
-
 section.canal-favorita{
 	width: 200px;
 	height: 170px;
@@ -235,7 +244,6 @@ section.canal-favorita small a span{
 
 div.quadro-dois{
 	width: 270px;
-	border: 1px solid black;
 }
 
 section.nosso-grupo{
@@ -263,13 +271,11 @@ section.nosso-grupo ul.list-group li{
 section.nosso-grupo span{
 	background-color:rgba(174,172,170,0.4);
 	color: #ffffff;
-	width: 10px;
-	height: 10px;
-	padding: 5px;
 	border-radius: 50%;
-	font-size: 8pt;
+	padding: 8px;
 	position: absolute;
 	top: 95px;
+	font-size: 8pt;
 }
 
 section.nosso-grupo span:hover{
@@ -306,12 +312,24 @@ section.favorita-unitoken small a{
 	font-weight: 100;
 	display: block;
 	line-height: 20px;
+	padding: 0 20px;
 	position: relative;
 }
 
-section.favorita-unitoken .clear{
-	clear: both;
+section.favorita-unitoken small a span{
+	border-radius: 50%;
+	color: #ffffff;
+	background-color: #736357;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-size: 7pt;
+	top:20px;
+	left: 135px;
 }
+
 
 
 
