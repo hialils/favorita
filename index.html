@@ -69,13 +69,11 @@
                         <a href="#" class="details">Ver Detalhes</a>
                     </li>
                 </ul>
-            </div>
-
                 <div class="bg-transparent"></div>
             </section>
             <!-- /BANNER -->
 
-            <div class="container">
+        <div class="container">
                 <div class="quadro-um clearfix quadros">
                 <!-- TOUR VIRTUAL -->
                     <section class="tour-virtual">
@@ -97,69 +95,77 @@
                     <!-- /CANAL FAVORITA -->
                 </div>
 
-                <div class="quadro-dois clearfix quadros">
-                    <!-- NOSSO GRUPO -->
-                    <section class="nosso-grupo">
+            <div class="clearfix quadros">
+                <!-- NOSSO GRUPO -->
+                <section class="nosso-grupo">
 
-                        <h1 class="title">Nosso Grupo</h1>
+                    <h1 class="title">Nosso Grupo</h1>
 
-                        <span id="prev"> < </span>
+                    <span id="prev"> < </span>
 
-                        <ul class="list-group" id="grupo">
-                            <li><img src="img/banners/logo-karlos.png" height="73" width="166" alt="Logo de Karos Designer"/></li>
-                            <li><img src="img/banners/logo-karlos.png" height="73" width="166" alt="Logo de Karos Designer"/></li>
-                            <li><img src="img/banners/logo-karlos.png" height="73" width="166" alt="Logo de Karos Designer"/></li>
-                        </ul>
+                    <ul class="list-group" id="grupo">
+                        <li><img src="img/banners/logo-karlos.png" height="73" width="166" alt="Logo de Karos Designer"/></li>
+                        <li><img src="img/banners/logo-karlos.png" height="73" width="166" alt="Logo de Karos Designer"/></li>
+                        <li><img src="img/banners/logo-karlos.png" height="73" width="166" alt="Logo de Karos Designer"/></li>
+                    </ul>
 
-                        <span id="next"> > </span>
+                    <span id="next"> > </span>
 
-                    </section>
-                    <!-- /NOSSO GRUPO -->
+                </section>
+                <!-- /NOSSO GRUPO -->
 
-                    <!-- FAVORITA UNITOKEN -->
-                    <section class="favorita-unitoken">
+                <!-- FAVORITA UNITOKEN -->
+                <section class="favorita-unitoken">
 
-                        <h1 class="title"><img src="img/favorita-unitoken.jpg" alt=""></h1>
-                        <small><a href="#">Acompanhe seu pedido do conforto do seu lar<span>></span></a></small>
-                    </section>
-                    <!-- /FAVORITA UNITOKEN     -->
-                </div>
+                    <h1 class="title"><img src="img/favorita-unitoken.jpg" alt=""></h1>
+                    <small><a href="#">Acompanhe seu pedido do conforto do seu lar<span>></span></a></small>
+                </section>
+                <!-- /FAVORITA UNITOKEN     -->
+            </div>
+            <div class="clearfix quadros">
                 <!-- FACEBOOK LIKE -->
                 <section class="facebook-like">
 
-                    <h1 class="title">Curta a <span>Favorita</span>no <span>Facebook</span></h1>
-                    <!-- Plugin Likebox gerado pelo site de desenvolvedor do facebook -->
+                    <h1 class="title">Curta a <span>Favorita</span> no <span class="facebook">Facebook</span></h1>
+
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                   if (d.getElementById(id)) return;
+                   js = d.createElement(s); js.id = id;
+                   js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+                   fjs.parentNode.insertBefore(js, fjs);
+                   }(document, 'script', 'facebook-jssdk'));
+               </script>
+
+               <div class="limitarbox"><div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="350" data-height="350" data-show-faces="true" data-colorscheme="dark" data-stream="false" data-header="false" data-border-color="#292526"></div></div>
+
+                <div class="fb-like" data-href="http://www.facebook.com/platform" data-send="true" data-layout="button_count" data-width="213" data-show-faces="false" data-colorscheme="dark" data-action="like"></div>
+
                 </section>
 
                 <!-- /FACEBOOK LIKE -->
-
+            </div>
+            <div class="clearfix quadros">
                 <!-- CATÁLOGO VIRTUAL -->
                 <section class="catalogo-virtual">
                     <h1 class="title">Catálogo <span>Virtual</span></h1>
-                    <img src="img/banners/catalogo.png" height="197" width="203" alt="Cátalogo Favorita"/>
+                    <img src="img/banners/catalogo.png"  alt="Cátalogo Favorita"/>
 
                     <small><a href="">Confira nosso catálogo virtual.</a></small>
-
                 </section>
                 <!-- /CATÁLOGO VIRTUAL -->
-
             </div>
+        </div>
+        <div class="newsletter-formulario clearfix">
 
-            <!-- NEWSLETTER -->
-            <section class="newsletter clearfix">
-                <div class="container">
-                    <h1 class="title">Newsletter</h1>
+            <h1 class="title">Newsletter</h1>
 
-                    <form class="form-newsetter" method="post">
-                        <input type="text" id="nome" name="nome" placeholder="Nome"/>
-                        <input type="email" id="email" name="email" placeholder="Email"/>
-                        <button type="submit">Cadastrar</button>
-                    </form>
-
-                </div>
-            </section>
-            <!-- /NEWSLETTER -->
-
+            <form class="form-newsetter" method="post">
+                <input type="text" id="nome" name="nome" placeholder="Nome"/>
+                <input type="email" id="email" name="email" placeholder="Email"/>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
         </main>
 
         <!-- FOOTER -->
