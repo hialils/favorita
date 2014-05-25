@@ -412,13 +412,126 @@ section.newsletter{
 div.newsletter-formulario{
 	width: 100%;
 	height: 75px;
-	background-color:rgba(242,239,236,0.2);
+	background-color:rgba(242,239,236,0.4);
+}
+
+div.newsletter-formulario form.form-newsetter{
+	width: 940px;
+	height: 50px;
+	vertical-align: top;
+	margin: 0 auto;
 }
 
 
+div.newsletter-formulario h1.title{
+	width: 120px;
+	display: inline-block;
+	color: #766754;
+	font-family: 'Helvetica';
+	font-size: 18pt;
+	margin-top: 20px;
+	margin-right: 10px;
+}
 
 
+div.newsletter-formulario form.form-newsetter input{
+	width: 263px;
+	height: 35px;
+	margin-right: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #e6e2de;
+}
 
+div.newsletter-formulario form.form-newsetter button{
+	width: 140px;
+	height: 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #766754;
+	border: none;
+	color: #ffffff;
+}
+
+footer.footer{
+	background-color: #b9ac9e;
+}
+
+footer.footer nav.site-map {
+	height: 350px;
+	width: 960px;
+	padding-left: 20px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+footer.footer nav.site-map ul.list-main li.uls{
+	display: inline-block;
+	float: left;
+	margin: 20px 28px 0 28px;
+}
+
+footer.footer nav.site-map ul.list-main li.uls.redessociais{
+	float: none;
+	width: 100px;
+	height: 100px;
+	display: block;
+	top: 110px;
+	left: 475px;
+	position: absolute;
+}
+footer.footer nav.site-map ul.list-main li.uls h1{
+	text-transform: uppercase;
+	color: #766754;
+	font-size: 9pt;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+footer.footer nav.site-map ul.list-main li.uls ul li a{
+	font-size: 8pt;
+	line-height: 30px;
+	color: #ede1d3;
+}
+
+div.info-footer{
+	width: 100%;
+	height: 50px;
+	color: #766754;
+	font-family: 'Helvetica';
+	background-color: #faf9f9;
+}
+
+div.info-footer small.copyright{
+	display: inline-block;
+	width: 400px;
+	margin-left: -350px;
+	padding: 20px 0;
+	float: left;
+	border: 1px solid black;
+}
+
+div.info-footer address.phone{
+	color: #6e5536;
+	font-size: 12pt;
+	padding: 20px 0;
+	display: inline-block;
+	margin-left: 150px;
+	text-align: right;
+	border: 1px solid black;
+	width: 300px;
+}
+div.info-footer address.phone span{
+	font-size: 8pt;
+}
+
+div.info-footer address.phone ::before{
+	content: "\2706";
+	margin-right: 0.5em;
+}
 
 
 
